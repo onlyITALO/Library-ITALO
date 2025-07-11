@@ -665,7 +665,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	end)
 	
 	AddConnection(CloseBtn.MouseButton1Up, function()
-	  OrionLib:MakeNotification({Name = "ITALO CLIENT -",Content = "ACESSE: https://discord.gg/wNSVgpazsE" ,Image = "rbxassetid://",Time = 7})task.wait(1)
+	  OrionLib:MakeNotification({Name = "ITALO CLIENT -",Content = " Script Fechado " ,Image = "rbxassetid://",Time = 7})task.wait(1)
 	  Orion:Destroy()
 	end)
 
